@@ -1,9 +1,10 @@
+// utils.js
 function greet(name) {
-    return `Hello, ${name}!`;
+    return `Hi, ${name}!`; 
 }
 
 function farewell(name) {
-    return `Goodbye, ${name}!`; // Mantém o 'Goodbye'
+    return `Goodbye, ${name}!`; // 
 }
 
-module.exports = { farewell }; // Atualizado para exportar apenas a função farewell
+module.exports = { farewell }; // 
